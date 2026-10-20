@@ -1,16 +1,54 @@
-# React + Vite
+ PennyWise – Personal Finance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PennyWise is a personal finance tracking application built using React, JavaScript, CSS, and Vite.
 
-Currently, two official plugins are available:
+The application helps users manage their income and expenses, monitor their available balance, and keep a record of financial transactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+* Add income and expense transactions
+* Automatically calculate total income and expenses
+* Display the current balance
+* View transaction history
+* Delete transactions
+* Save transactions using browser local storage
+* Responsive design for desktop and mobile devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* JavaScript
+* HTML
+* CSS
+* Vite
+* Browser Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How to Run the Project
+
+1. Clone or download the repository.
+2. Open the project folder in VS Code.
+3. Install dependencies using npm install.
+4. Start the development server using npm run dev.
+5. Open the local URL displayed in the terminal.
+
+What I Learned
+
+Through this project, I practised:
+
+* React components and the useState hook
+* Handling user input and forms
+* Working with arrays using filter, map, and reduce
+* Managing application state
+* Storing and retrieving data using local storage
+* Creating responsive layouts using CSS
+
+Future Improvements
+
+* Expense categories
+* Monthly budget goals
+* Charts and financial summaries
+* Transaction search and filtering
+
+Developer
+
+Developed by Nandipha Mkhwanazi as part of my software development learning journey.

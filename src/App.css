@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: lavender;
+  color: black;
+}
+
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: purple;
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: dimgray;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.summary div {
+  padding: 22px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 4px 15px lightgray;
+}
+
+.summary h3 {
+  font-size: 14px;
+  margin: 0 0 12px;
+}
+
+.summary h2 {
+  font-size: 23px;
+  margin: 0;
+}
+
+.balance {
+  border-top: 5px solid purple;
+}
+
+.income {
+  border-top: 5px solid mediumseagreen;
+}
+
+.expenses {
+  border-top: 5px solid lightcoral;
+}
+
+.panel {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px lightgray;
+}
+
+.panel h2 {
+  color: purple;
+  margin-top: 0;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+input, select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid lightgray;
+  border-radius: 9px;
+  font-size: 15px;
+  background: white;
+  color: black;
+}
+
+input:focus, select:focus {
+  outline: 2px solid mediumpurple;
+}
+
+form button {
+  padding: 14px;
+  border: none;
+  border-radius: 9px;
+  background: rebeccapurple;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: indigo;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 15px 0;
+  border-bottom: 1px solid gainsboro;
+}
+
+li div {
+  display: grid;
+  gap: 5px;
+}
+
+small {
+  color: gray;
+}
+
+span.income {
+  color: seagreen;
+}
+
+span.expense {
+  color: crimson;
+}
+
+.delete {
+  background: mistyrose;
+  color: crimson;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .summary {
+    grid-template-columns: 1fr;
+  }
+
+  li {
+    flex-wrap: wrap;
+  }
+}
